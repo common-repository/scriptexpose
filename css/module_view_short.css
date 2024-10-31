@@ -1,0 +1,44 @@
+ 
+.rib {  padding: 8px 10px; text-align: center !important ;}
+.rib_url{ width :200px; padding: 1px 1px;}
+.rib , .rib_url , #new_mod_name {
+	    
+	top: 30px ; 
+	text-align: center ;
+	font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px ;
+    text-decoration: none;
+    border-color: #d0d0d0;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 9px ;
+	
+}
+
+#new_mod_name{
+	
+    position: sticky;
+    display:none ;
+}
+
+/*list table in compile teble */
+[class^=contein_info] {
+
+    background-color:  #D0D082; 
+    display: none ;
+
+}
+[class^=main_info] {
+
+    background-color: #B0BDC1; /* #D0D082;*/ 
+    
+   
+}
+
+.label_text {
+
+    width : 200px !important;
+
+}
